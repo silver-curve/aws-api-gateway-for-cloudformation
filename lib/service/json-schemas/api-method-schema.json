@@ -19,7 +19,7 @@
             "required": true,
             "properties": {
                 "httpMethod": {
-                    "enum": ["GET", "HEAD", "POST", "PUT", "DELETE", "TRACE"],
+                    "enum": ["GET", "HEAD", "POST", "PUT", "DELETE", "TRACE", "PATCH"],
                     "required": true
                 },
                 "authorizationType": {
